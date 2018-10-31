@@ -957,7 +957,7 @@ declare module powerbi {
     export type Paragraphs = Paragraph[];
 
     export interface Paragraph {
-        horizontalTextAlignment?: string;
+        VerticalTextAlignment?: string;
         textRuns: TextRun[];
     }
 
